@@ -13,4 +13,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FinPlanner.Application\FinPlanner.Application.csproj" />
+  </ItemGroup>
+
 </Project>
