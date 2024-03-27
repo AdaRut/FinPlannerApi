@@ -1,6 +1,4 @@
-﻿using System.Text.RegularExpressions;
-
-namespace FinPlanner.Domain.Entities
+﻿namespace FinPlanner.Domain.Entities
 {
     public class Budget
     {
