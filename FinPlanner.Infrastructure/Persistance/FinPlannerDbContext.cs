@@ -11,9 +11,9 @@ namespace FinPlanner.Infrastructure.Persistance
         internal DbSet<GroupItem> GroupItems { get; set; }
         internal DbSet<Asset> Assets { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public FinPlannerDbContext(DbContextOptions<FinPlannerDbContext> options) : base(options)
         {
-            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=FinPlannerDb;Trusted_Connection=True;");
+                
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -4,12 +4,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinPlanner.API", "FinPlanner.API\FinPlanner.API.csproj", "{D2A41198-45DB-4836-84C6-7329ACC0A4A9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B78B0D5C-E626-4C4B-831B-5E34355BB64C} = {B78B0D5C-E626-4C4B-831B-5E34355BB64C}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinPlanner.Domain", "FinPlanner.Domain\FinPlanner.Domain.csproj", "{AB031224-4272-4856-9313-70BABA3A0C3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinPlanner.Domain", "FinPlanner.Domain\FinPlanner.Domain.csproj", "{AB031224-4272-4856-9313-70BABA3A0C3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinPlanner.Application", "FinPlanner.Application\FinPlanner.Application.csproj", "{31391E32-9495-4ED8-8BAC-DA1896BBA036}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinPlanner.Application", "FinPlanner.Application\FinPlanner.Application.csproj", "{31391E32-9495-4ED8-8BAC-DA1896BBA036}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinPlanner.Infrastructure", "FinPlanner.Infrastructure\FinPlanner.Infrastructure.csproj", "{B78B0D5C-E626-4C4B-831B-5E34355BB64C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinPlanner.Infrastructure", "FinPlanner.Infrastructure\FinPlanner.Infrastructure.csproj", "{B78B0D5C-E626-4C4B-831B-5E34355BB64C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
